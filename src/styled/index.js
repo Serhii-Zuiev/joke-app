@@ -1,5 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-
 export { StyledAppContainer, StyledHeader, StyledAppHeading } from "./app";
 
 export {
