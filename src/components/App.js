@@ -1,14 +1,16 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import {
   GlobalStyle,
   StyledAppContainer,
   StyledHeader,
   StyledAppHeading,
 } from "../styled";
-import { AllJokesContainer } from "./AllJokes";
-import { SelectedJoke } from "./SelectedJoke";
+import { Routing } from "./routing";
 
 function App() {
+  const isLoading = useSelector((state) => state.isLoading);
+
   return (
     <>
       <GlobalStyle />
@@ -23,8 +25,8 @@ function App() {
             </StyledAppHeading>
           </StyledHeader>
 
-          <AllJokesContainer />
-          {/* <SelectedJoke /> */}
+          {!isLoading ? <Routing/> : <div style={{ fontSize: "200px" }}>LOADING</div>}
+
         </div>
       </StyledAppContainer>
     </>

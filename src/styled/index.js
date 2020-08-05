@@ -13,4 +13,6 @@ export {
 
 export { StyledJokesList } from "./AllJokes/jokesList";
 
+export { StyledCardContainer } from "./AllJokes/jokeItem";
+
 export { GlobalStyle } from "./globalStyles";
