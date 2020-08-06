@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Form, Button } from "react-bootstrap";
 import {
   fetchJokesRequested,
   filterJokes as filterJokesAction,
-} from "../../redux/actions";
+} from "../../redux/jokesReducer";
 import {
   StyledJokesContainer,
   StyledJokesHeading,
   StyledForm,
 } from "../../styled";
 import { JokesList } from "./";
-import { Form, Button } from "react-bootstrap";
 
 const AllJoke = () => {
   const DEFAULT_JOKES_AMMOUNT = 20;
@@ -22,13 +22,13 @@ const AllJoke = () => {
   const [jokesAmmountToFetch, setJokesAmmountToFetch] = useState("");
 
   function initRequestFetchJokes() {
-    if (!allJokes.length) {
+    if (allJokes.length < 2) {
       dispatch(fetchJokesRequested(DEFAULT_JOKES_AMMOUNT));
     }
   }
 
   useEffect(() => {
-    if(!apiError){
+    if (!apiError) {
       initRequestFetchJokes();
     }
   }, []);
@@ -39,18 +39,17 @@ const AllJoke = () => {
     }
   }, [allJokes.length]);
 
-  function handleChangeJokesFilter(e) {
-    const value = e.target.value;
+  function handleChangeJokesFilter({ target: { value } }) {
     setJokesFilter(value);
     dispatch(filterJokesAction(value));
   }
 
-  function handleChangeJokesAmmountToFetch(e) {
-    setJokesAmmountToFetch(e.target.value);
+  function handleChangeJokesAmmountToFetch({ target: { value } }) {
+    setJokesAmmountToFetch(value);
   }
 
-  function handleSubmitFetch(e) {
-    e.preventDefault();
+  function handleSubmitFetch(event) {
+    event.preventDefault();
 
     if (jokesAmmountToFetch) {
       dispatch(fetchJokesRequested(jokesAmmountToFetch));

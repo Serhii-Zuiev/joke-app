@@ -6,11 +6,11 @@ import { PatchExclamation } from "react-bootstrap-icons";
 import { EmojiSmile } from "react-bootstrap-icons";
 import { StyledCardContainer } from "../../styled";
 
-const JokeItem = ({ text, categories, jokeID }) => {
+function defineJokeCategory(category) {
   let Icon;
   let iconTitle;
 
-  switch (categories[0]) {
+  switch (category) {
     case "nerdy":
       Icon = Eyeglasses;
       iconTitle = "Nerdy";
@@ -22,7 +22,14 @@ const JokeItem = ({ text, categories, jokeID }) => {
     default:
       Icon = EmojiSmile;
       iconTitle = "Funny";
+
   }
+  return { Icon, iconTitle}
+}
+
+const JokeItem = ({ text, categories, jokeID }) => {
+  
+  const category = defineJokeCategory(categories[0])
 
   return (
     <StyledCardContainer>
@@ -37,8 +44,8 @@ const JokeItem = ({ text, categories, jokeID }) => {
               <Button variant="outline-primary">Read joke</Button>
             </NavLink>
 
-            <div className="JokeCategory" title={iconTitle}>
-              <Icon color="#777" size={30} />
+            <div className="JokeCategory" title={category.iconTitle}>
+              <category.Icon color="#777" size={30} />
             </div>
           </div>
         </Card.Body>

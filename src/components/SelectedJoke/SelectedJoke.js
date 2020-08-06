@@ -1,31 +1,22 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import { ArrowLeft } from "react-bootstrap-icons";
-import { useSelector } from "react-redux";
-import axios from "axios";
+import { useSelector, useDispatch } from "react-redux";
+
+import { fetchSelectedJokeRequested } from '../../redux/jokesReducer';
 import { GoBackLinkContainer, StyledSelectedJoke } from "../../styled";
 
-const SelectedJoke = ({
-  location: {
-    state: { id },
-  },
-}) => {
+const SelectedJoke = ({location: {state: { id }}}) => {
+  const dispatch = useDispatch();
   const allJokes = useSelector((state) => state.jokes);
   const jokeToRender = allJokes.find((i) => i.id === id);
 
-  const [fetchedJoke, setFetchedJoke] = useState("");
-
-  function fetchSelectedJoke(id) {
-    if (!jokeToRender) {
-      axios
-        .get(`http://api.icndb.com/jokes/${id}`)
-        .then((res) => setFetchedJoke(res.data.value.joke));
-    }
-  }
 
   useEffect(() => {
-    fetchSelectedJoke(id);
+    if (!jokeToRender) {
+      dispatch(fetchSelectedJokeRequested(id))
+    }
   }, []);
 
   return (
@@ -40,7 +31,7 @@ const SelectedJoke = ({
       </GoBackLinkContainer>
 
       <StyledSelectedJoke>
-        {jokeToRender?.joke || fetchedJoke}
+        {jokeToRender?.joke}
       </StyledSelectedJoke>
     </>
   );
