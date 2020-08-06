@@ -17,7 +17,7 @@ export const GoBackLinkContainer = styled.div`
 
 export const StyledSelectedJoke = styled.div`
   width: 300px;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 140px);
   margin: 0 auto;
 
   display: flex;

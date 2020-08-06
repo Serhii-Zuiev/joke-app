@@ -15,4 +15,6 @@ export { StyledJokesList } from "./AllJokes/jokesList";
 
 export { StyledCardContainer } from "./AllJokes/jokeItem";
 
+export { StyledSpinnerContainer } from "./AllJokes/LoadingSpinner";
+
 export { GlobalStyle } from "./globalStyles";

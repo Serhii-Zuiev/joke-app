@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchJokesRequested } from "../../redux/actions";
+import {
+  fetchJokesRequested,
+  filterJokes as filterJokesAction,
+} from "../../redux/actions";
 import {
   StyledJokesContainer,
   StyledJokesHeading,
@@ -13,7 +16,9 @@ const AllJoke = () => {
   const DEFAULT_JOKES_AMMOUNT = 20;
   const dispatch = useDispatch();
   const allJokes = useSelector((state) => state.jokes);
-  const [jokesFilter, setJokesFilter] = useState("All");
+  const apiError = useSelector((state) => state.error);
+  const reduxJokesFilter = useSelector((state) => state.filter);
+  const [jokesFilter, setJokesFilter] = useState(reduxJokesFilter);
   const [jokesAmmountToFetch, setJokesAmmountToFetch] = useState("");
 
   function initRequestFetchJokes() {
@@ -23,11 +28,21 @@ const AllJoke = () => {
   }
 
   useEffect(() => {
-    initRequestFetchJokes();
+    if(!apiError){
+      initRequestFetchJokes();
+    }
   }, []);
 
+  useEffect(() => {
+    if (allJokes.length > DEFAULT_JOKES_AMMOUNT) {
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+  }, [allJokes.length]);
+
   function handleChangeJokesFilter(e) {
-    setJokesFilter(e.target.value);
+    const value = e.target.value;
+    setJokesFilter(value);
+    dispatch(filterJokesAction(value));
   }
 
   function handleChangeJokesAmmountToFetch(e) {
@@ -79,6 +94,7 @@ const AllJoke = () => {
           type="number"
           value={jokesAmmountToFetch}
           onChange={handleChangeJokesAmmountToFetch}
+          required
           min="1"
           max="20"
           placeholder="1-20"

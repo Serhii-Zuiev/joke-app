@@ -7,6 +7,7 @@ import {
   StyledAppHeading,
 } from "../styled";
 import { Routing } from "./routing";
+import { LoadingSpinner } from "./AllJokes";
 
 function App() {
   const isLoading = useSelector((state) => state.isLoading);
@@ -25,7 +26,7 @@ function App() {
             </StyledAppHeading>
           </StyledHeader>
 
-          {!isLoading ? <Routing/> : <div style={{ fontSize: "200px" }}>LOADING</div>}
+          {!isLoading ? <Routing /> : <LoadingSpinner />}
 
         </div>
       </StyledAppContainer>

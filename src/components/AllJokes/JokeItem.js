@@ -34,7 +34,7 @@ const JokeItem = ({ text, categories, jokeID }) => {
           <div className="JokeCategoryWrapper">
 
             <NavLink  to={{ pathname: `/joke/${jokeID}`, state: { id: jokeID, from: '/' } }}>
-              <Button variant="outline-primary">Read AllJoke</Button>
+              <Button variant="outline-primary">Read joke</Button>
             </NavLink>
 
             <div className="JokeCategory" title={iconTitle}>

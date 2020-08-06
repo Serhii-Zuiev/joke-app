@@ -13,14 +13,14 @@ export function reducer(state = innitialState, { type, payload }) {
       return { ...state, jokes: [...state.jokes, ...payload] };
 
     case types.FILTER_JOKES:
-      return { ...state, filter: payload.filter };
+      return { ...state, filter: payload };
 
     case types.START_LOADING:
       return { ...state, isLoading: true };
 
     case types.STOP_LOADING:
       return { ...state, isLoading: false };
-    //TODO ошибка запускает луп.
+      
     case types.FETCH_JOKES_ERROR:
       return { ...state, error: payload };
 
