@@ -1,14 +1,14 @@
 import React from "react";
+import shortid from "shortid";
 import { StyledJokesList } from "../../styled";
 import { JokeItem } from "./";
-import { placeholder } from "../../placeholder";
 
-const JokesList = () => {
+const JokesList = ({ allJokes }) => {
   return (
     <StyledJokesList>
-      {placeholder.map((item) => (
-        <li key={item.id} className="jokesListItem">
-          <JokeItem text={item.joke} />
+      {allJokes.map((j) => (
+        <li key={shortid.generate()} className="jokesListItem">
+          <JokeItem text={j.joke} categories={j.categories} jokeID={j.id} />
         </li>
       ))}
     </StyledJokesList>

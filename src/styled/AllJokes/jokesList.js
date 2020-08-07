@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { device } from "../globalStyles";
 
 export const StyledJokesList = styled.ul`
+  min-height: calc(100vh - 390px);
   padding: 40px 0;
 
   @media ${device.tablet} {
@@ -10,7 +11,7 @@ export const StyledJokesList = styled.ul`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
 
   @media ${device.laptop} {

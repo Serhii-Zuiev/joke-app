@@ -1,13 +1,69 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Form, Button } from "react-bootstrap";
+import {
+  fetchJokesRequested,
+  filterJokes as filterJokesAction,
+} from "../../redux/jokesReducer";
 import {
   StyledJokesContainer,
   StyledJokesHeading,
   StyledForm,
 } from "../../styled";
 import { JokesList } from "./";
-import { Form, Button } from "react-bootstrap";
 
 const AllJoke = () => {
+  const DEFAULT_JOKES_AMMOUNT = 20;
+  const dispatch = useDispatch();
+  const allJokes = useSelector((state) => state.jokes);
+  const apiError = useSelector((state) => state.error);
+  const reduxJokesFilter = useSelector((state) => state.filter);
+  const [jokesFilter, setJokesFilter] = useState(reduxJokesFilter);
+  const [jokesAmmountToFetch, setJokesAmmountToFetch] = useState("");
+
+  function initRequestFetchJokes() {
+    if (allJokes.length < 2) {
+      dispatch(fetchJokesRequested(DEFAULT_JOKES_AMMOUNT));
+    }
+  }
+
+  useEffect(() => {
+    if (!apiError) {
+      initRequestFetchJokes();
+    }
+  }, []);
+
+  useEffect(() => {
+    if (allJokes.length > DEFAULT_JOKES_AMMOUNT) {
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+  }, [allJokes.length]);
+
+  function handleChangeJokesFilter({ target: { value } }) {
+    setJokesFilter(value);
+    dispatch(filterJokesAction(value));
+  }
+
+  function handleChangeJokesAmmountToFetch({ target: { value } }) {
+    setJokesAmmountToFetch(value);
+  }
+
+  function handleSubmitFetch(event) {
+    event.preventDefault();
+
+    if (jokesAmmountToFetch) {
+      dispatch(fetchJokesRequested(jokesAmmountToFetch));
+    }
+  }
+
+  function filterJokes(allJokes, filter) {
+    if (filter !== "All") {
+      return allJokes.filter((j) =>
+        j.categories.includes(filter.toLowerCase())
+      );
+    } else return allJokes;
+  }
+
   return (
     <StyledJokesContainer>
       <StyledJokesHeading>
@@ -17,7 +73,12 @@ const AllJoke = () => {
       <Form style={{ width: "6rem" }}>
         <Form.Group controlId="exampleForm.SelectCustom">
           <Form.Label style={{ width: "8rem" }}>choose category</Form.Label>
-          <Form.Control as="select" custom>
+          <Form.Control
+            as="select"
+            custom
+            onChange={handleChangeJokesFilter}
+            value={jokesFilter}
+          >
             <option>All</option>
             <option>Nerdy</option>
             <option>Explicit</option>
@@ -25,11 +86,14 @@ const AllJoke = () => {
         </Form.Group>
       </Form>
 
-      <JokesList />
+      <JokesList allJokes={filterJokes(allJokes, jokesFilter)} />
 
-      <StyledForm>
+      <StyledForm onSubmit={handleSubmitFetch}>
         <Form.Control
           type="number"
+          value={jokesAmmountToFetch}
+          onChange={handleChangeJokesAmmountToFetch}
+          required
           min="1"
           max="20"
           placeholder="1-20"

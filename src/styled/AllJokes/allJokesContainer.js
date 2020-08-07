@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledJokesContainer = styled.section`
+  min-height: calc(100vh - 70px);
   padding-top: 40px;
 
   .categorySelect {
