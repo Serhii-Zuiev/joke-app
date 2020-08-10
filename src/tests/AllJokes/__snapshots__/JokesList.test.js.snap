@@ -1,0 +1,1216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<JokesList/> unit test should render JokesList component 1`] = `
+<ul
+  class="sc-AxmLO cZbuqf"
+>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Chuck Norris made the sun by rubbing his hands together.
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/616"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Chuck Norris does not need to type-cast. The Chuck-Norris Co...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/512"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Nerdy"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm8-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M8 7a1 1 0 0 0-1 1H6a2 2 0 1 1 4 0H9a1 1 0 0 0-1-1zM0 8a.5.5 0 0 1 .5-.5h1v1h-1A.5.5 0 0 1 0 8zm15.5.5h-1v-1h1a.5.5 0 0 1 0 1z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Chuck Norris can win at solitaire with only 18 cards.
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/247"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Only Chuck Norris can prevent forest fires.
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/396"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            As a teen, Chuck Norris had sex with every nun in a convent ...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/167"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Chuck Norris insists on strongly-typed programming languages...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/502"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Nerdy"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm8-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M8 7a1 1 0 0 0-1 1H6a2 2 0 1 1 4 0H9a1 1 0 0 0-1-1zM0 8a.5.5 0 0 1 .5-.5h1v1h-1A.5.5 0 0 1 0 8zm15.5.5h-1v-1h1a.5.5 0 0 1 0 1z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Divide Chuck Norris by zero and you will in fact get one.......
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/390"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Product Owners never ask Chuck Norris for more features. The...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/547"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Nerdy"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm8-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M8 7a1 1 0 0 0-1 1H6a2 2 0 1 1 4 0H9a1 1 0 0 0-1-1zM0 8a.5.5 0 0 1 .5-.5h1v1h-1A.5.5 0 0 1 0 8zm15.5.5h-1v-1h1a.5.5 0 0 1 0 1z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Chuck Norris doesn't actually write books, the words assembl...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/73"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Chuck Norris can write infinite recursion functions and have...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/458"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Nerdy"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm8-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M8 7a1 1 0 0 0-1 1H6a2 2 0 1 1 4 0H9a1 1 0 0 0-1-1zM0 8a.5.5 0 0 1 .5-.5h1v1h-1A.5.5 0 0 1 0 8zm15.5.5h-1v-1h1a.5.5 0 0 1 0 1z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            There is in fact an 'I' in Norris, but there is no 'team'. N...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/130"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            # Chuck Norris's show is called Walker: Texas Ranger, becaus...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/187"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            If you spell Chuck Norris in Scrabble, you win. Forever.
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/37"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            When Chuck Norris goes to donate blood, he declines the syri...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/15"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Chuck Norris is not Irish. His hair is soaked in the blood o...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/398"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Chuck Norris' credit cards have no limit. Last weekend, he m...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/338"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            There was never anything wrong with Achilles' heel until he ...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/609"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            Chuck Norris doesn't step on toes. Chuck Norris steps on nec...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/151"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            There are no races, only countries of people Chuck Norris ha...
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/64"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li
+    class="jokesListItem"
+  >
+    <div
+      class="sc-fzozJi kPgWkx"
+    >
+      <div
+        class="card"
+        style="height:100%"
+      >
+        <div
+          class="cardBody card-body"
+        >
+          <p
+            class="card-text"
+            style="margin-bottom:0"
+          >
+            When Chuck Norris does division, there are no remainders.
+          </p>
+          <div
+            class="JokeCategoryWrapper"
+          >
+            <a
+              href="/joke/259"
+            >
+              <button
+                class="btn btn-outline-primary"
+                type="button"
+              >
+                Read joke
+              </button>
+            </a>
+            <div
+              class="JokeCategory"
+              title="Funny"
+            >
+              <svg
+                fill="#777"
+                height="30"
+                viewBox="0 0 16 16"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+`;
