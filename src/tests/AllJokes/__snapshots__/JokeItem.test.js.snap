@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<JokeItem/> unit test should render JokeItem component 1`] = `
+<div
+  class="sc-fzozJi kPgWkx"
+>
+  <div
+    class="card"
+    style="height:100%"
+  >
+    <div
+      class="cardBody card-body"
+    >
+      <p
+        class="card-text"
+        style="margin-bottom:0"
+      >
+        hahahaha
+      </p>
+      <div
+        class="JokeCategoryWrapper"
+      >
+        <a
+          href="/joke/333"
+        >
+          <button
+            class="btn btn-outline-primary"
+            type="button"
+          >
+            Read joke
+          </button>
+        </a>
+        <div
+          class="JokeCategory"
+          title="Nerdy"
+        >
+          <svg
+            fill="#777"
+            height="30"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm8-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+              fill-rule="evenodd"
+            />
+            <path
+              d="M8 7a1 1 0 0 0-1 1H6a2 2 0 1 1 4 0H9a1 1 0 0 0-1-1zM0 8a.5.5 0 0 1 .5-.5h1v1h-1A.5.5 0 0 1 0 8zm15.5.5h-1v-1h1a.5.5 0 0 1 0 1z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

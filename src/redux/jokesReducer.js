@@ -10,7 +10,7 @@ export const types = {
 
 
 
-const innitialState = {
+export const innitialState = {
   jokes: [],
   filter: "All",
   isLoading: false,

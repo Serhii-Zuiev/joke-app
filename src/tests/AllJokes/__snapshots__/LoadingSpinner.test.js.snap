@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingSpinner/>  unit test should render LoadingSpinner component 1`] = `
+<div
+  class="sc-fzoLsD kYZhHX"
+>
+  <div
+    class="spinner-border text-primary"
+    role="status"
+  >
+    <span
+      class="sr-only"
+    >
+      Loading...
+    </span>
+  </div>
+</div>
+`;

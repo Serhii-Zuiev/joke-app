@@ -27,7 +27,7 @@ function defineJokeCategory(category) {
   return { Icon, iconTitle}
 }
 
-const JokeItem = ({ text, categories, jokeID }) => {
+const JokeItem = ({ text='', categories=[], jokeID='' }) => {
   
   const category = defineJokeCategory(categories[0])
 

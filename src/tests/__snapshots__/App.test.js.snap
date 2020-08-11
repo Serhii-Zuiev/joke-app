@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> unit test should render App component 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <App>
+    <Memo(GlobalStyleComponent) />
+    <styled.div>
+      <div
+        className="sc-AxjAm bDdSts"
+      >
+        <div
+          className="appWrapper"
+        >
+          <styled.header>
+            <header
+              className="sc-AxirZ idrxSW"
+            >
+              <styled.h1>
+                <h1
+                  className="sc-AxiKw dsGgMU"
+                >
+                  <span
+                    aria-label="face emoji"
+                    role="img"
+                  >
+                    😄
+                  </span>
+                  Joke app
+                </h1>
+              </styled.h1>
+            </header>
+          </styled.header>
+          <Routing>
+            <BrowserRouter>
+              <Router
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "createHref": [Function],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+              >
+                <Switch>
+                  <Route
+                    component={[Function]}
+                    computedMatch={
+                      Object {
+                        "isExact": true,
+                        "params": Object {},
+                        "path": "/",
+                        "url": "/",
+                      }
+                    }
+                    exact={true}
+                    location={
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      }
+                    }
+                    path="/"
+                  >
+                    <AllJoke
+                      history={
+                        Object {
+                          "action": "POP",
+                          "block": [Function],
+                          "createHref": [Function],
+                          "go": [Function],
+                          "goBack": [Function],
+                          "goForward": [Function],
+                          "length": 1,
+                          "listen": [Function],
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "push": [Function],
+                          "replace": [Function],
+                        }
+                      }
+                      location={
+                        Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        }
+                      }
+                      match={
+                        Object {
+                          "isExact": true,
+                          "params": Object {},
+                          "path": "/",
+                          "url": "/",
+                        }
+                      }
+                    >
+                      <styled.section>
+                        <section
+                          className="sc-AxgMl gTGhQd"
+                        >
+                          <styled.h2>
+                            <h2
+                              className="sc-AxheI etBnmE"
+                            >
+                              Here are our best jokes, but it isn't certain...
+                            </h2>
+                          </styled.h2>
+                          <Form
+                            inline={false}
+                            style={
+                              Object {
+                                "width": "6rem",
+                              }
+                            }
+                          >
+                            <form
+                              className=""
+                              style={
+                                Object {
+                                  "width": "6rem",
+                                }
+                              }
+                            >
+                              <FormGroup
+                                controlId="exampleForm.SelectCustom"
+                              >
+                                <div
+                                  className="form-group"
+                                >
+                                  <FormLabel
+                                    column={false}
+                                    srOnly={false}
+                                    style={
+                                      Object {
+                                        "width": "8rem",
+                                      }
+                                    }
+                                  >
+                                    <label
+                                      className="form-label"
+                                      htmlFor="exampleForm.SelectCustom"
+                                      style={
+                                        Object {
+                                          "width": "8rem",
+                                        }
+                                      }
+                                    >
+                                      choose category
+                                    </label>
+                                  </FormLabel>
+                                  <FormControl
+                                    as="select"
+                                    custom={true}
+                                    onChange={[Function]}
+                                    value="All"
+                                  >
+                                    <select
+                                      className="custom-select"
+                                      id="exampleForm.SelectCustom"
+                                      onChange={[Function]}
+                                      value="All"
+                                    >
+                                      <option>
+                                        All
+                                      </option>
+                                      <option>
+                                        Nerdy
+                                      </option>
+                                      <option>
+                                        Explicit
+                                      </option>
+                                    </select>
+                                  </FormControl>
+                                </div>
+                              </FormGroup>
+                            </form>
+                          </Form>
+                          <JokesList
+                            allJokes={Array []}
+                          >
+                            <styled.ul>
+                              <ul
+                                className="sc-AxmLO cZbuqf"
+                              />
+                            </styled.ul>
+                          </JokesList>
+                          <styled.form
+                            onSubmit={[Function]}
+                          >
+                            <form
+                              className="sc-Axmtr jRulXR"
+                              onSubmit={[Function]}
+                            >
+                              <FormControl
+                                max="20"
+                                min="1"
+                                onChange={[Function]}
+                                placeholder="1-20"
+                                required={true}
+                                style={
+                                  Object {
+                                    "width": "5rem",
+                                  }
+                                }
+                                type="number"
+                                value=""
+                              >
+                                <input
+                                  className="form-control"
+                                  max="20"
+                                  min="1"
+                                  onChange={[Function]}
+                                  placeholder="1-20"
+                                  required={true}
+                                  style={
+                                    Object {
+                                      "width": "5rem",
+                                    }
+                                  }
+                                  type="number"
+                                  value=""
+                                />
+                              </FormControl>
+                              <Button
+                                active={false}
+                                disabled={false}
+                                type="submit"
+                                variant="primary"
+                              >
+                                <button
+                                  className="btn btn-primary"
+                                  disabled={false}
+                                  type="submit"
+                                >
+                                  Get more
+                                </button>
+                              </Button>
+                            </form>
+                          </styled.form>
+                        </section>
+                      </styled.section>
+                    </AllJoke>
+                  </Route>
+                </Switch>
+              </Router>
+            </BrowserRouter>
+          </Routing>
+        </div>
+      </div>
+    </styled.div>
+  </App>
+</Provider>
+`;

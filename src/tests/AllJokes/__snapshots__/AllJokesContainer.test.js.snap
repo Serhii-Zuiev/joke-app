@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AllJokesContainer /> unit test should render AllJokesContainer component 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <AllJoke>
+    <styled.section>
+      <section
+        className="sc-AxgMl gTGhQd"
+      >
+        <styled.h2>
+          <h2
+            className="sc-AxheI etBnmE"
+          >
+            Here are our best jokes, but it isn't certain...
+          </h2>
+        </styled.h2>
+        <Form
+          inline={false}
+          style={
+            Object {
+              "width": "6rem",
+            }
+          }
+        >
+          <form
+            className=""
+            style={
+              Object {
+                "width": "6rem",
+              }
+            }
+          >
+            <FormGroup
+              controlId="exampleForm.SelectCustom"
+            >
+              <div
+                className="form-group"
+              >
+                <FormLabel
+                  column={false}
+                  srOnly={false}
+                  style={
+                    Object {
+                      "width": "8rem",
+                    }
+                  }
+                >
+                  <label
+                    className="form-label"
+                    htmlFor="exampleForm.SelectCustom"
+                    style={
+                      Object {
+                        "width": "8rem",
+                      }
+                    }
+                  >
+                    choose category
+                  </label>
+                </FormLabel>
+                <FormControl
+                  as="select"
+                  custom={true}
+                  onChange={[Function]}
+                  value="All"
+                >
+                  <select
+                    className="custom-select"
+                    id="exampleForm.SelectCustom"
+                    onChange={[Function]}
+                    value="All"
+                  >
+                    <option>
+                      All
+                    </option>
+                    <option>
+                      Nerdy
+                    </option>
+                    <option>
+                      Explicit
+                    </option>
+                  </select>
+                </FormControl>
+              </div>
+            </FormGroup>
+          </form>
+        </Form>
+        <JokesList
+          allJokes={Array []}
+        >
+          <styled.ul>
+            <ul
+              className="sc-AxmLO cZbuqf"
+            />
+          </styled.ul>
+        </JokesList>
+        <styled.form
+          onSubmit={[Function]}
+        >
+          <form
+            className="sc-Axmtr jRulXR"
+            onSubmit={[Function]}
+          >
+            <FormControl
+              max="20"
+              min="1"
+              onChange={[Function]}
+              placeholder="1-20"
+              required={true}
+              style={
+                Object {
+                  "width": "5rem",
+                }
+              }
+              type="number"
+              value=""
+            >
+              <input
+                className="form-control"
+                max="20"
+                min="1"
+                onChange={[Function]}
+                placeholder="1-20"
+                required={true}
+                style={
+                  Object {
+                    "width": "5rem",
+                  }
+                }
+                type="number"
+                value=""
+              />
+            </FormControl>
+            <Button
+              active={false}
+              disabled={false}
+              type="submit"
+              variant="primary"
+            >
+              <button
+                className="btn btn-primary"
+                disabled={false}
+                type="submit"
+              >
+                Get more
+              </button>
+            </Button>
+          </form>
+        </styled.form>
+      </section>
+    </styled.section>
+  </AllJoke>
+</Provider>
+`;

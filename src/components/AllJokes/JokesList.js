@@ -3,7 +3,7 @@ import shortid from "shortid";
 import { StyledJokesList } from "../../styled";
 import { JokeItem } from "./";
 
-const JokesList = ({ allJokes }) => {
+const JokesList = ({ allJokes=[] }) => {
   return (
     <StyledJokesList>
       {allJokes.map((j) => (
