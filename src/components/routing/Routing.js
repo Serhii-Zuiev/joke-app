@@ -9,16 +9,14 @@ import {
 import { AllJokesContainer } from "../AllJokes";
 import { SelectedJoke } from "../SelectedJoke";
 
-const Routing = () => {
-    return (
-        <Router>
-            <Switch>
-                <Route exact path="/" component={AllJokesContainer} />
-                <Route path="/joke/:id" component={SelectedJoke} />
-                <Redirect to="/" />
-            </Switch>
-        </Router>
-    );
-};
+const Routing = () => (
+    <Router>
+        <Switch>
+            <Route exact path="/" component={AllJokesContainer} />
+            <Route path="/joke/:id" component={SelectedJoke} />
+            <Redirect to="/" />
+        </Switch>
+    </Router>
+);
 
 export default Routing;
